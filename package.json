@@ -8,8 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oZ-0/mongod-status"
+    "url": "git+https://github.com/oZ-0/mongod-status.git"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Olivier Laurent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oZ-0/mongod-status/issues"
+  },
+  "homepage": "https://github.com/oZ-0/mongod-status#readme",
+  "keywords": [
+    "monitoring",
+    "mongod",
+    "status"
+  ]
 }

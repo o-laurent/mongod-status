@@ -21,4 +21,6 @@ async function isActive() {
 
 isActive();
 
-export { isActive };
+exports = {
+  isActive: isActive
+};
