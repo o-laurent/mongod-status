@@ -7,10 +7,15 @@ async function isActive() {
       if (err) {
         console.warn(err);
       }
-      resolve(stdout ? stdout : stderr);
+      resolve(stdout);
     });
   });
-  return active.split("\n")[2].split(":")[1].split(" ")[1] === "active";
+  try {
+    active = active.split("\n")[2].split(":")[1].split(" ")[1] === "active";
+  } catch {
+    active = false;
+  }
+  return active;
 }
 
 exports.isActive = isActive;
