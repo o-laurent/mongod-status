@@ -13,6 +13,4 @@ async function isActive() {
   return active.split("\n")[2].split(":")[1].split(" ")[1] === "active";
 }
 
-exports = {
-  isActive: isActive,
-};
+exports.isActive = isActive;
