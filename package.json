@@ -1,6 +1,6 @@
 {
   "name": "@arkm/mongod-status",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple mongod service monitoring package.",
   "main": "index.js",
   "scripts": {
